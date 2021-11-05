@@ -1,0 +1,90 @@
+body {
+  /*Diseño gráfico al contenido que esta dentro del body*/
+  padding-top: 48px;
+  /*El padding-top establece el espacio de relleno requerido en la parte superior del elemento.*/
+  color: #5a5a5a;
+}
+
+#Xuonzy {
+  border: solid 5px black;
+}
+
+/*El margin bottom establece el espacio requerido en la parte inferior de un elemento.*/
+.carousel {
+  margin-bottom: 64px;
+}
+.carousel-caption {
+  /*El bottom especifica parte de la posición de un elemento*/
+  bottom: 48px;
+  /*El z-index nos ayuda a superponer los elementos*/
+  z-index: 10;
+}
+/*El height especifica la altura del area de contenido de un elemento.*/
+.carousel-item {
+  height: 512px;
+}
+
+.carousel-item > img {
+  /*La posición absoluta  permite posicionar elementos de manera absoluta o fija*/
+  position: absolute;
+  /*El top especifica parte de la posición de un elemento posicionado.*/
+  top: 0;
+  /*El left permite desplazar un elemento respecto a su posición original tomando 
+  como referencia el borde izquierdo del elemento.*/
+  left: 0;
+  /*El min-width se usa para determinar la anchura mínima de un elemento.*/
+  min-width: 100%;
+  height: 512px;
+}
+
+/*El text-aling nos alinea los elementos al centro de la pantalla*/
+.marketing .col-lg-4 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+/*El font-weight especifica el peso o grueso de la letra, quiere decir a la negrilla */
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  /*El margin-right establece el margen derecho de un elemento */
+  margin-right: 12px;
+  /*El margin-left establece el margen izquierdo de un elemento*/
+  margin-left: 12px;
+}
+/*El margin se divide en: Arriba | Derecha | Abajo | Izquierda*/
+.featurette-divider {
+  margin: 80px 0;
+}
+
+.encabezado {
+  height: 300px;
+  /*El width hace referencia al ancho de los elementos*/
+  width: 100%;
+  /*El display: block  genera un cuadro de elemento de bloque.*/
+  display: block;
+  /*El background-color genera un color de fondo en los campos*/
+  background-color: #119bdb;
+  /*El padding se divide en: Arriba | Derecha | Abajo | Izquierda*/
+  padding: 20px 0px;
+}
+/*Diseño Responsivo para que sea adaptable a dispositivos móviles*/
+
+/*El @media permite adaptar la representación del contenido a características del dispositivo como 
+la resolución de pantalla (por ejemplo, un smartphone frente a pantallas de alta definición)*/
+@media (min-width: 640px) {
+  .carousel-caption p {
+    margin-bottom: 20px;
+    /*El font-size nos ayuda asignarle un tamaño al elemento*/
+    font-size: 20px;
+    /*El line-height establece la altura de una casilla remarcada por líneas.*/
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 56px;
+  }
+}
