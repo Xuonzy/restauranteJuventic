@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#7952b3">
+    <title>Contactenos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+</head>
+<!-- Parte de Brayan -->
+<body>
+<!-- intro 
+<div class="row justify-content-md-center">
+  <h2>Contacto</h2>
+  <br>
+</div>
+-->
+<!-- 
+  <div class="container">
+  <section class="main">
+      <article>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magni aliquid porro rerum dolorum dolorem iure est ipsa, optio aperiam placeat aspernatur adipisci temporibus voluptatum repellat debitis! Rerum, suscipit molestias!</p>
+      </article>
+  </section>
+<br>
+</div>
+-->
+<!-- formulario -->
+  <div class="container col-sm-6 Xuonzy">
+    <form class="form-horizontal" action="mailto:correorestaurante@empresa.com" method="POST">
+<!-- Asunto -->
+      <div class="form-group">
+        <label class="sr-only" for="Asunto">Asunto del contacto</label>
+        <input type="text" id="Asunto" class="form-control" aria-describedby="Asunto" placeholder="Razón por la cual realiza el contacto"  required="">
+      </div>
+<br>
+<!-- Nombre -->
+      <div class="form-group">
+        <div class="form-group">
+          <input type="text" class="form-control" id="nombre" placeholder="Nombre y apellido" required="" pattern="[a-zA-z]+" maxlength="50" minlength="3">
+        </div>
+      </div>
+<br> 
+<!-- Email -->
+      <div class="form-group">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required="" maxlength="50">
+      </div>
+<br>
+<!-- Select Servicios -->
+      <div class="form-group">
+        <label for="option"> Servicios </label>
+        <select class="form-control" name="" id="option">
+          <option>Seleccione la opción</option>
+          <option>Celebración de cumpleaños</option>
+          <option>Aniversarios</option>
+          <option>Fiestas infantiles</option>
+          <option>Declaraciones o propuestas</option>
+          <option>Despedidas</option>
+          <option>Cena con amigos</option>
+        </select>
+      </div>
+<br>
+<!-- Comentarios especiales -->
+      <div class="form-group">
+        <label class="sr-only" for="deseo">Comentarios o solicitudes especiales </label>
+        <input type="text" id="deseo" class="form-control" aria-describedby="deseo" placeholder="Ej: Festividades, ingrediendes aicionales, etc.." required="">
+      </div>
+<br>
+<!-- terminos y condiciones -->
+      <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+              <label><input type="checkbox" required=""> Acepto <a href="#">Términos y condiciones</a></label>
+            </div>
+          </div>
+      </div>
+<br>
+<!-- Boton enviar -->
+      <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </div>
+      </div>
+      </form>
+    </div>
+</body>
+<br>
+<footer>
+  <div class="container">
+      <h3>Brayan Solano</h3>
+  </div>
+</footer>
+<!-- Fin prte de Brayan -->
+</html>
